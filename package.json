@@ -1,0 +1,43 @@
+{
+	"name": "@iamnapo/colors",
+	"version": "0.0.0",
+	"description": "A versatile personal color pallette",
+	"homepage": "https://github.com/iamnapo/colors#readme",
+	"bugs": {
+		"url": "https://github.com/iamnapo/colors/issues"
+	},
+	"repository": "github:iamnapo/colors",
+	"license": "MIT",
+	"author": {
+		"name": "Napoleon Oikonomou",
+		"email": "Napoleonoikon@gmail.com",
+		"url": "https://iamnapo.me"
+	},
+	"main": "index.js",
+	"files": [
+		"index.js"
+	],
+	"scripts": {
+		"lint": "eslint .",
+		"test": "npm run lint"
+	},
+	"devDependencies": {
+		"eslint": "^6.8.0",
+		"eslint-config-airbnb": "^18.0.1",
+		"eslint-config-iamnapo": "^2.1.1",
+		"eslint-plugin-import": "^2.20.1",
+		"eslint-plugin-jsx-a11y": "^6.2.3",
+		"eslint-plugin-react": "^7.18.3",
+		"eslint-plugin-react-hooks": "^2.3.0"
+	},
+	"engines": {
+		"node": ">=10"
+	},
+	"keywords ": [
+		"css",
+		"colors",
+		"config",
+		"iamnapo",
+		"styleguide"
+	]
+}
