@@ -134,4 +134,4 @@ const pink = {
 	get default() { return this[500]; },
 };
 
-module.export = { transparent, black, white, gray, red, orange, yellow, green, teal, blue, indigo, purple, pink };
+module.exports = { transparent, black, white, gray, red, orange, yellow, green, teal, blue, indigo, purple, pink };

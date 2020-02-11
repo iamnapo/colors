@@ -13,9 +13,9 @@
 		"email": "Napoleonoikon@gmail.com",
 		"url": "https://iamnapo.me"
 	},
-	"main": "index.js",
+	"main": "colors.js",
 	"files": [
-		"index.js"
+		"colors.js"
 	],
 	"scripts": {
 		"lint": "eslint .",
