@@ -1,22 +1,23 @@
-name: Install & test
+name: ci
 
-on:
-  push:
-    branches:
-      - master
-  pull_request:
-    paths-ignore:
-      - "*.md"
-      - "docs/**"
-      - "media/**"
+on: push
+
 jobs:
-  test:
-    name: Test
+  ci:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: ⬇️ Checkout repo
+        uses: actions/checkout@v2
+
+      - name: ⎔ Setup node
+        uses: actions/setup-node@v2
         with:
-          node-version: "12.x"
-      - run: npm i
-      - run: npm test
+          node-version: 14
+
+      - name: 📥 Download deps
+        uses: bahmutov/npm-install@v1
+        with:
+          useLockFile: false
+
+      - name: 🧪 Run test script
+        run: npm test

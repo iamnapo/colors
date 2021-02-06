@@ -1,10 +1,10 @@
-const transparent = "transparent";
+export const transparent = "transparent";
 
-const black = "#000";
+export const black = "#000";
 
-const white = "#fff";
+export const white = "#fff";
 
-const gray = {
+export const gray = {
 	100: "#f7fafc",
 	200: "#edf2f7",
 	300: "#e2e8f0",
@@ -17,7 +17,7 @@ const gray = {
 	get default() { return this[500]; },
 };
 
-const red = {
+export const red = {
 	100: "#fff5f5",
 	200: "#fed7d7",
 	300: "#feb2b2",
@@ -30,7 +30,7 @@ const red = {
 	get default() { return this[500]; },
 };
 
-const orange = {
+export const orange = {
 	100: "#fffaf0",
 	200: "#feebc8",
 	300: "#fbd38d",
@@ -43,7 +43,7 @@ const orange = {
 	get default() { return this[500]; },
 };
 
-const yellow = {
+export const yellow = {
 	100: "#fffff0",
 	200: "#fefcbf",
 	300: "#faf089",
@@ -56,7 +56,7 @@ const yellow = {
 	get default() { return this[500]; },
 };
 
-const green = {
+export const green = {
 	100: "#f0fff4",
 	200: "#c6f6d5",
 	300: "#9ae6b4",
@@ -69,7 +69,7 @@ const green = {
 	get default() { return this[500]; },
 };
 
-const teal = {
+export const teal = {
 	100: "#e6fffa",
 	200: "#b2f5ea",
 	300: "#81e6d9",
@@ -82,7 +82,7 @@ const teal = {
 	get default() { return this[500]; },
 };
 
-const blue = {
+export const blue = {
 	100: "#ebf8ff",
 	200: "#bee3f8",
 	300: "#90cdf4",
@@ -95,7 +95,7 @@ const blue = {
 	get default() { return this[500]; },
 };
 
-const indigo = {
+export const indigo = {
 	100: "#ebf4ff",
 	200: "#c3dafe",
 	300: "#a3bffa",
@@ -108,7 +108,7 @@ const indigo = {
 	get default() { return this[500]; },
 };
 
-const purple = {
+export const purple = {
 	100: "#faf5ff",
 	200: "#e9d8fd",
 	300: "#d6bcfa",
@@ -121,7 +121,7 @@ const purple = {
 	get default() { return this[500]; },
 };
 
-const pink = {
+export const pink = {
 	100: "#fff5f7",
 	200: "#fed7e2",
 	300: "#fbb6ce",
@@ -133,5 +133,3 @@ const pink = {
 	900: "#702459",
 	get default() { return this[500]; },
 };
-
-module.exports = { transparent, black, white, gray, red, orange, yellow, green, teal, blue, indigo, purple, pink };
