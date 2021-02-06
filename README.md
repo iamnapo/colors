@@ -15,7 +15,5 @@ $ npm i @iamnapo/colors
 ```jsx
 import { gray, indigo } from "@iamnapo/colors";
 
-<div style={{ color: gray[300], backgroundColor: colors.indigo.default }}>
-	Hello World!
-</div>;
+<div style={{ color: gray[300], backgroundColor: indigo.default }}>{"Hello World!"}</div>;
 ```
